@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
