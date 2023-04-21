@@ -6,7 +6,7 @@ const {
   SiYoutubemusic,
   BiLineChart,
   RiRadioLine,
-  RiUserFollowLine,
+  MdOutlineFeed,
 } = icons;
 
 export const sidebarMenu = [
@@ -14,30 +14,30 @@ export const sidebarMenu = [
     id: 1,
     path: 'personal',
     text: 'Cá Nhân',
-    icon: <MdOutlineLibraryMusic />,
+    icon: <MdOutlineLibraryMusic size={20} />,
   },
   {
     id: 2,
     path: '/',
     text: 'Khám Phá',
-    icon: <SiYoutubemusic />,
+    icon: <SiYoutubemusic size={20} />,
   },
   {
     id: 3,
-    path: '',
+    path: 'chart',
     text: '#zingchart',
-    icon: <BiLineChart />,
+    icon: <BiLineChart size={20} />,
   },
   {
     id: 4,
     path: 'radio',
     text: 'Radio',
-    icon: <RiRadioLine />,
+    icon: <RiRadioLine size={20} />,
   },
   {
     id: 5,
     path: 'follow',
     text: 'Theo dõi',
-    icon: <RiUserFollowLine />,
+    icon: <MdOutlineFeed size={20} />,
   },
 ];

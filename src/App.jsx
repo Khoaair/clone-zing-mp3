@@ -12,7 +12,7 @@ const App = () => {
           <Route path={path.home} element={<HomePage />} />
           <Route path={path.myMusic} element={<MyMusic />} />
         </Route>
-        <Route path={path.error} element={<Error />} />
+        {/* <Route path={path.error} element={<Error />} /> */}
       </Routes>
     </Router>
   );

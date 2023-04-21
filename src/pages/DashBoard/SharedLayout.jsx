@@ -1,5 +1,5 @@
 import React from 'react';
-import { SidebarRight, SidebarLeft } from '../../components';
+import { SidebarRight, SidebarLeft, Header } from '../../components';
 import { Outlet } from 'react-router-dom';
 
 const SharedLayout = () => {
@@ -9,6 +9,7 @@ const SharedLayout = () => {
         <SidebarLeft />
       </div>
       <div className='flex-auto border border-red-900'>
+        <Header />
         <Outlet />
       </div>
       <div className='w-329 flex-none border border-red-900'>
