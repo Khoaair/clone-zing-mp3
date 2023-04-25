@@ -11,12 +11,6 @@ const {
 
 export const sidebarMenu = [
   {
-    id: 1,
-    path: 'personal',
-    text: 'Cá Nhân',
-    icon: <MdOutlineLibraryMusic size={20} />,
-  },
-  {
     id: 2,
     path: '/',
     text: 'Khám Phá',
