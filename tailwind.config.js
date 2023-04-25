@@ -2,6 +2,9 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    fontFamily: {
+      primary: ['Inter', 'san-serif'],
+    },
     extend: {
       width: {
         240: '240px',
@@ -11,6 +14,9 @@ export default {
       },
       padding: {
         'logo-p': '0 25px 0 28px',
+      },
+      colors: {
+        activeColor: '#3E9797',
       },
     },
   },

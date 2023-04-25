@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { sidebarMenu } from '../ultils/menuSidebar';
 
 const SidebarLeft = () => {
-  const active = 'mr-3 flex items-center gap-4 text-[#0F7070]';
+  const active = 'mr-3 flex items-center gap-4 text-activeColor';
   const disable = 'mr-3 flex items-center gap-4';
   return (
     <div className='flex flex-col'>

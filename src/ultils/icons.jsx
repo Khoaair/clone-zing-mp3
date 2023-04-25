@@ -4,6 +4,7 @@ import { BiLineChart } from 'react-icons/bi';
 import { RiRadioLine } from 'react-icons/ri';
 import { BsSearch, BsArrowLeft, BsArrowRight } from 'react-icons/bs';
 import { IoDiamondOutline, IoSettingsOutline } from 'react-icons/io5';
+import { VscDesktopDownload } from 'react-icons/vsc';
 
 const icons = {
   MdOutlineLibraryMusic,
@@ -16,6 +17,7 @@ const icons = {
   IoSettingsOutline,
   BsArrowLeft,
   BsArrowRight,
+  VscDesktopDownload,
 };
 
 export default icons;
