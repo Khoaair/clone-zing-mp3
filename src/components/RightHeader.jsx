@@ -1,7 +1,7 @@
 import React from 'react';
 import icons from '../ultils/icons';
 import { Link } from 'react-router-dom';
-import { submenuHeader, menuHeader } from '../ultils/submenuHeader';
+import { FooterList, MenuList } from './menuList';
 
 const { VscDesktopDownload, IoDiamondOutline, IoSettingsOutline } = icons;
 const RightHeader = () => {
@@ -30,48 +30,18 @@ const RightHeader = () => {
         </Link>
       </div>
       <div>
-        <ul>
+        <ul className='bg-red-500 relative'>
           <li>
             <button
               type='button'
-              className='p-2 bg-red-500 rounded-full text-[#A2AAAD]'
+              className='p-2 rounded-full text-[#A2AAAD]'
               onClick={() => {
                 console.log('open submenu');
               }}
             >
               <IoSettingsOutline size={24} />
             </button>
-          </li>
-          {menuHeader.map(item => {
-            const { id, text, iconLeft, iconRight } = item;
-            return (
-              <ul key={id}>
-                <li>
-                  <Link to='/'>
-                    <span>{iconLeft}</span>
-                    <p>{text}</p>
-                    <span>{iconRight}</span>
-                  </Link>
-                </li>
-              </ul>
-            );
-          })}
-          <br />
-          <li>
-            {submenuHeader.map(item => {
-              const { id, text, iconLeft, iconRight } = item;
-              return (
-                <ul key={id}>
-                  <li>
-                    <Link to='/'>
-                      <span>{iconLeft}</span>
-                      <p>{text}</p>
-                      <span>{iconRight}</span>
-                    </Link>
-                  </li>
-                </ul>
-              );
-            })}
+            <MenuList />
           </li>
         </ul>
       </div>

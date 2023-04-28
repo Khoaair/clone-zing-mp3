@@ -14,32 +14,32 @@ const {
 export const submenuHeader = [
   {
     id: 1,
-    iconLeft: <ImNotification />,
+    iconLeft: <ImNotification size={20} />,
     iconRight: '',
     text: 'Giới thiệu',
   },
   {
     id: 2,
-    iconLeft: <IoCallOutline />,
-    iconRight: <BsArrowUpRight />,
+    iconLeft: <IoCallOutline size={20} />,
+    iconRight: <BsArrowUpRight size={16} />,
     text: 'Liên hệ',
   },
   {
     id: 3,
-    iconLeft: <RiAdvertisementLine />,
-    iconRight: <BsArrowUpRight />,
+    iconLeft: <RiAdvertisementLine size={20} />,
+    iconRight: <BsArrowUpRight size={16} />,
     text: 'Quảng cáo',
   },
   {
     id: 4,
-    iconLeft: <CgNotes />,
-    iconRight: <BsArrowUpRight />,
+    iconLeft: <CgNotes size={20} />,
+    iconRight: <BsArrowUpRight size={16} />,
     text: 'Thỏa thuận sử dụng',
   },
   {
     id: 5,
-    iconLeft: <BsShieldCheck />,
-    iconRight: <BsArrowUpRight />,
+    iconLeft: <BsShieldCheck size={20} />,
+    iconRight: <BsArrowUpRight size={16} />,
     text: 'Chính sách bảo mật',
   },
 ];
@@ -48,13 +48,13 @@ export const menuHeader = [
   {
     id: 1,
     text: 'Trình phát nhạc',
-    iconLeft: <AiOutlinePlayCircle />,
-    iconRight: <IoIosArrowForward />,
+    iconLeft: <AiOutlinePlayCircle size={20} />,
+    iconRight: <IoIosArrowForward size={16} />,
   },
   {
     id: 2,
     text: 'Giao diện',
-    iconLeft: <GiPaintRoller />,
-    iconRight: <IoIosArrowForward />,
+    iconLeft: <GiPaintRoller size={20} />,
+    iconRight: <IoIosArrowForward size={16} />,
   },
 ];
